@@ -1,0 +1,40 @@
+* {
+    body {
+        background: rgb(45, 45, 45);
+    }
+}
+
+.container h1 {
+    color: #fff;
+}
+
+.container option {
+    color: red;
+}
+
+.container button {
+    background: rgb(214, 57, 57);
+    color: #fff;
+    height: 2.5rem;
+    width: 6.5rem;
+    border: none;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.container button:hover {
+    background: red;
+}
+
+#result {
+    color: red;
+    font-size: 30px;
+}
